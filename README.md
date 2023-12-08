@@ -56,4 +56,4 @@ This project is licensed under the [Your License] - see the [LICENSE.md](LICENSE
 - Special thanks to [name] for their contributions.
 
 ## Contact
-If you have any questions or suggestions, feel free to reach out to me at [your email].
+If you have any questions or suggestions, feel free to reach out to me at (main.rishab@gmail.com).
