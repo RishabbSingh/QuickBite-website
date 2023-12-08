@@ -39,7 +39,7 @@ If you'd like to contribute to this project, please follow these steps:
 - **Homepage:**   
   Brief description: [Add a brief description of your contributions to the homepage.]
 
-- **Gallery Page:** [@your-username](link-to-your-github)  
+- **Gallery Page:** 
   Brief description: [Add a brief description of your contributions to the gallery page.]
 
 ### Contributions by Teammates
