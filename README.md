@@ -1,5 +1,5 @@
 # QuickBite-website
- # Your Project Title
+ 
 
 ## Description
 A simple frontend website built using HTML, CSS, and Bootstrap for individual restaurants looking to establish an online presence and sell their food.
