@@ -34,8 +34,7 @@ If you'd like to contribute to this project, please follow these steps:
 4. Push to the branch: `git push origin feature-name`
 5. Open a pull request.
 
-**Contributions:**
- By Me [@RishabbSingh](https://github.com/RishabbSingh)
+### Contributions by Me [@RishabbSingh](https://github.com/RishabbSingh)
 - **Homepage:**   
   Brief description: [Add a brief description of your contributions to the homepage.]
 
