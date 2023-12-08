@@ -1,5 +1,8 @@
 # QuickBite-website
  ### :camera: Screenshots
+ <div align="center"> 
+  <img src="https://placehold.co/600x400?text=Your+Screenshot+here" alt="screenshot" />
+</div>
 
 ## Description
 A simple frontend website built using HTML, CSS, and Bootstrap for individual restaurants looking to establish an online presence and sell their food.
