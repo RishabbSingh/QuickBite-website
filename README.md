@@ -8,6 +8,11 @@ A simple frontend website built using HTML, CSS, and Bootstrap for individual re
  - **Customizable Menu:** Tailor your online menu with ease, showcasing a variety of dishes, specials, and dietary options.
  - **Responsive Design:** Enjoy a seamless browsing experience on any device, thanks to the website's responsive design powered by Bootstrap.
  - **Interactive Food Gallery:** Explore a visually appealing gallery featuring high-quality images of the restaurant's signature dishes, with the ability to zoom in for a closer look.
+ - - **Membership Plans Page:** Explore various membership plans offering exclusive benefits and discounts for loyal customers.
+
+- **Contact Us Page:** Easily get in touch with the restaurant through a dedicated contact page, including a contact form and essential contact information.
+
+- **Easy Navigation:** Navigate seamlessly through the website with an intuitive menu structure, allowing users to find information quickly and efficiently.
 
 ## Installation
 1. Clone the repository: `git clone https://github.com/your-username/your-repo.git`
