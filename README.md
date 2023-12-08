@@ -5,9 +5,9 @@
 A simple frontend website built using HTML, CSS, and Bootstrap for individual restaurants looking to establish an online presence and sell their food.
 
 ## Features
-  **Customizable Menu:** Tailor your online menu with ease, showcasing a variety of dishes, specials, and dietary options.
-  **Responsive Design:** Enjoy a seamless browsing experience on any device, thanks to the website's responsive design powered by Bootstrap.
-  **Interactive Food Gallery:** Explore a visually appealing gallery featuring high-quality images of the restaurant's signature dishes, with the ability to zoom in for a closer look.
+ - **Customizable Menu:** Tailor your online menu with ease, showcasing a variety of dishes, specials, and dietary options.
+ - **Responsive Design:** Enjoy a seamless browsing experience on any device, thanks to the website's responsive design powered by Bootstrap.
+ - **Interactive Food Gallery:** Explore a visually appealing gallery featuring high-quality images of the restaurant's signature dishes, with the ability to zoom in for a closer look.
 
 ## Installation
 1. Clone the repository: `git clone https://github.com/your-username/your-repo.git`
