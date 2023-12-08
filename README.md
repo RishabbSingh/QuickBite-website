@@ -35,9 +35,16 @@ If you'd like to contribute to this project, please follow these steps:
 5. Open a pull request.
 
 **Contributions:**
-- Homepage: [@RishabbSingh](https://github.com/RishabbSingh) (Add a brief description of your contributions)
-- Gallery Page: [@RishabbSingh](https://github.com/RishabbSingh) (Add a brief description of your contributions)
-- Other Pages: Teammate's name [@teammate-username](link-to-teammate-github) (Add a brief description of their contributions)
+ By Me [@RishabbSingh](https://github.com/RishabbSingh)
+- **Homepage:**   
+  Brief description: [Add a brief description of your contributions to the homepage.]
+
+- **Gallery Page:** [@your-username](link-to-your-github)  
+  Brief description: [Add a brief description of your contributions to the gallery page.]
+
+### Contributions by Teammates
+- **Teammate 1:** [@teammate-username-1](link-to-teammate-1-github)  
+  - **Page 1:** Brief description: [Add a brief description of teammate 1's contributions to Page 1.]
 
 ## Purpose
 This website is designed for individual restaurants seeking to establish an online presence and facilitate the online sale of their food items.
