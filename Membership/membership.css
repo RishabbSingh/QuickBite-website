@@ -1,0 +1,375 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* color variables */
+    --accent-color: #EAF2F5;
+    --primary-text-color: #141414;
+    --secondary-text-color: #007676;
+    --light-text-color: #fff;
+    --primary-color: #fff;
+    --secondary-color: #007676;
+    --alpha-secondary-color: rgba(0, 118, 118, 0.2);
+    --discount-color: #E71A1C;
+    --card-hover-bg-color: #F9F9F9;
+    --border-color: #f9f9f9;
+    --box-shadow-color: rgb(234, 242, 245, 0.5);
+    --shadow: rgba(0, 0, 0, 0.05);
+    --box-shadow: rgba(0, 0, 0, 0.25);
+    --discount-banner-background-overlay: linear-gradient(rgba(0, 118, 118, 0.8), rgba(0, 118, 118, 0.8));
+    --phone-app-shadow: #e2f7ff;
+    --alpha-primary-color: rgba(255, 255, 255, 0.5);
+    --rating-color: #FFA800;
+
+    /* transition curves */
+    --transition-curve: cubic-bezier(0.36, -0.21, 0.16, 1.97);
+}
+
+html {
+    font-size: 16px;
+    overflow-x: hidden;
+}
+
+/* ::-webkit-scrollbar{
+    display: none;
+} */
+
+body {
+    font-family: 'Lato', sans-serif;
+    color: var(--primary-text-color);
+    background: var(--primary-color);
+    overflow-x: hidden; 
+}
+
+
+/* navbar */
+
+.navbar1{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  padding: 0 6vw;
+  z-index: 9;
+  background: var(--accent-color);
+}
+/* Style the dropdown container */
+.dropdown {
+  position: relative;
+  display: inline;
+}
+
+/* Style the dropdown button */
+.dropbtn {
+  
+  font-size: 16px;
+  background-color: transparent;
+  color: black;
+  /* padding: 8px 20px; */
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover {
+  color:var(--secondary-text-color) ;
+}
+
+/* Style the dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/* Style the dropdown links */
+.dropdown-content a {
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  color: #333;
+}
+
+/* Change color on hover */
+.dropdown-content a:hover {
+  background-color: var(--secondary-color);
+  color: white;
+}
+
+/* Show the dropdown content when the button is hovered over */
+.dropdown:hover .dropdown-content {
+  display: block;
+  color: var(--secondary-text-color);
+}
+
+.nav-toggler{
+  display: none;
+}
+
+.logo{
+  height: 6rem;
+ 
+
+}
+
+
+.links-container{
+  align-items: center;
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+  margin-left: 6.5%;
+  margin-top: 1.55%;
+}
+
+.links{
+  color: var(--primary-text-color);
+  text-decoration: none;
+  text-transform: capitalize;
+  padding: .5rem 1rem;
+  transition: .2s;
+}
+
+.links:hover{
+  color: var(--secondary-text-color)
+}
+
+.nav-extras{
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  gap: 1rem;
+}
+
+.search{
+  position: relative;
+  width: 20vw;
+  min-width: 150px;
+  height: 2.5rem;
+  border-radius: .5rem;
+  overflow: hidden;
+}
+
+.search-box{
+  width: 100%;
+  height: 100%;
+  background: var(--primary-color);
+  border: none;
+  padding: 1rem;
+  outline: none;
+  font-size: .9rem;
+}
+
+.search-btn, .locate-btn{
+  position: absolute;
+  border: none;
+  right: 0;
+  width: 3rem;
+  height: 100%;
+  background: var(--primary-color);
+  text-align: center;
+  cursor: pointer;
+  color: var(--secondary-text-color);
+}
+
+.cart{
+  width: 2.5rem;
+  height: 2.5rem;
+  color: var(--secondary-text-color);
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  transition: .5s;
+}
+
+.cart:hover, .locate-btn:hover, .social-links a:hover{
+  background: var(--alpha-secondary-color);
+}
+/* card plan */
+    .subscription-card {
+      border: 2px solid #f0f0f0;
+      border-radius: 15px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transition: transform 0.2s;
+      background: #fff; /* White background */
+    }
+
+    .subscription-card:hover {
+      transform: scale(1.05);
+    }
+
+    .subscription-card .card-header {
+      background-color: #f0f0f0;
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+      text-align: center;
+    }
+
+    .subscription-card .card-header h3 {
+      font-size: 1.5rem;
+      padding: 10px;
+    }
+
+    .subscription-card .list-group-item {
+      background-color: transparent;
+      border: none;
+    }
+
+    .subscription-card .card-body {
+      padding: 20px;
+      text-align: center;
+    }
+
+    .subscription-card .btn {
+  background: linear-gradient(to bottom, #007676, #004040);
+  border: none;
+  border-radius: 15px;
+  color: #fff;
+  transition: background 0.3s;
+}
+
+.subscription-card .btn:hover {
+  background: linear-gradient(to bottom, #004040, #007676);
+}
+
+
+    body {
+      background-color: #EAF2F5;
+      color: #240a2c;
+    }
+
+    .basic-card {
+      background: #EAF2F5; /* Light blue background for Basic plan */
+    }
+
+    .gold-card {
+      background: #EAF2F5; /* Gold background for Gold plan */
+    }
+
+    .platinum-card {
+      background: #EAF2F5; /* Light gray background for Platinum plan */
+    }
+
+    /* Additional styling for icons */
+    .subscription-card .icon {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+
+    .basic-icon {
+      color: #007676; /* Custom color for Basic icon */
+    }
+
+    .gold-icon {
+      color: #FFD700; /* Custom color for Gold icon */
+    }
+
+    .platinum-icon {
+  color: #C0C0C0; /* Custom color for Platinum icon */
+}
+
+
+/* footer */
+
+#footer{
+    position: relative;
+    padding: 4rem 10vw 8rem;
+    display: flex;
+    /* justify-content: space-between; */
+    /* display: grid;
+    grid-template-columns: repeat(4, 1fr); */
+    gap: 5%;
+    background-color: var(--accent-color);
+}
+
+.footer-logo{
+    height: 6rem;
+}
+.company-info{
+    height: 3rem;
+    margin-bottom: 2rem;
+}
+
+.social-links{
+    display: flex;
+    gap: 1rem;
+}
+
+.social-links a{
+    width: 3rem;
+    height: 3rem;
+    padding: .5rem;
+    border-radius: 100%;
+    background: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 1.5rem;
+    transition: .5s;
+}
+
+.download-btn-group{
+    margin: 2rem;
+}
+#footer .download-btn img{
+    width: 8rem;
+}
+
+.footer-links-container{
+    margin-left: auto;
+}
+
+.footer-links-container.contact{
+    width: 20%;
+}
+
+.footer-links-title{
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+    color: var(--secondary-text-color);
+}
+
+.footer-links, .footer-text{
+    color: var(--text-color);
+    text-decoration: none;
+    margin-bottom: .5rem;
+    line-height: 1.5rem;
+    display: block;
+    opacity: 0.75;
+    text-transform: capitalize;
+}
+
+.footer-links:hover{
+    opacity: 1;
+    color: var(--secondary-text-color);
+}
+
+.footer-text{
+    margin-bottom: 1rem;
+    opacity: 0.75;
+}
+
+
+.copyright{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    margin-bottom: 0;
+    bottom: 0;
+    text-align: center;
+    padding: .5rem;
+    color: var(--light-text-color);
+    background: var(--secondary-color);
+}

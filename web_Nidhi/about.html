@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Responsive website using Bootstrap 5</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+
+<header id="home">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white px-4 border-bottom fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand fs-2" href="#">Quick-<span class="text-success">Bite</span></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5 text-center">
+              <li class="nav-item">
+                <a class="nav-link active text-primary" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#aboutt">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Uncover
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#services">Values and Philosophy</a></li>
+                  <li><a class="dropdown-item" href="#services">Testimonials and Awards</a></li>
+                  <li><a class="dropdown-item" href="#services">Community and Engagement</a></li>
+                  <li><a class="dropdown-item" href="#services">Updates and News</a></li>
+                  <li><a class="dropdown-item" href="#services">Photo and Visuals</a></li>
+                  <li><a class="dropdown-item" href="#services">Legal Information</a></li>
+                  <li><a class="dropdown-item" href="#services">Values and Philosophy</a></li>
+                  <!--<li><hr class="dropdown-divider"></li>-->
+                  <!--<li><a class="dropdown-item" href="#services">Food 1</a></li>-->
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#team">Our Team</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#subscribe">Subscribe</a>
+              </li>
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="icecream.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-md-block">
+              <h5>Scoop me up</h5>
+              <p>"Creamy Dreams in Every Bite - Discover Our Ice Cream Delights!"</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="spicy.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-md-block">
+              <h5>Sizzle & Savor</h5>
+              <p>"From Mild to Wild: Exploring the Spicy Spectrum at Quick Bite."</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="drink.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-md-block">
+              <h5>Sip Stories</h5>
+              <p>"Quench Your Thirst with Quick Bite's Refreshing Elixirs!"</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+</header>
+
+<section class="aboutt my-5" id="aboutt">
+    <div class="container">
+        <div class="text-center my-5">
+            <h1 data-aos="fade-up" data-aos-offset="200">About <span class="text-success">Me</span></h1>
+            <hr / class="w-25 m-auto">
+        </div>
+        <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-6 col-12" data-aos="zoom-in" data-aos-offset="200">
+                <h1>Our <span class="text-success">Being</h1>
+
+                    <p class="p-2">Quick Bite is your go-to destination for fast, delicious, and easy-to-make recipes that are designed to satisfy 
+                      your cravings in no time. Whether you're a busy professional looking for quick weeknight dinners, a student seeking budget-friendly meal ideas, 
+                      or simply someone who loves good food without the fuss, Quick Bite has you covered. Our mission is to make cooking enjoyable and accessible for everyone, 
+                      without compromising on taste or quality. So, join us on a mouthwatering journey as we serve up a smorgasbord of 
+                      culinary inspiration, one quick bite at a time.</p>
+                    <button type="button" class="btn btn-light mb-5">Know our story</button>
+
+                    <div class="accordion" id="accordionExample" data-aos="zoom-in-left" data-aos-offset="200">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                              Meet our Team
+                            </button>
+                          </h2>
+                          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              <strong>Allow me to introduce the dedicated team at Quick Bite.</strong>
+                              <strong>Nidhi Gupta</strong> our Tech Whiz and Website Architect, ensures a seamless and user-friendly digital experience.<strong>Rishabh Singh</strong> our Head Chef and Culinary Artist, leads with a wealth of culinary expertise and creativity. <strong> Gourabh Ghosh </strong> our Food Explorer and Epicurean Adventurer, embarks on culinary journeys worldwide to bring you the finest flavors. Lastly, <strong> Vishwerwar Shinde </strong> our Nutritionist and Healthy Living Advocate, ensures that every dish not only tantalizes your taste buds but also aligns with your well-being. Together, we are committed to providing you with a world of culinary inspiration and knowledge, delivered one delectable bite at a time.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                              Our Expertise
+                            </button>
+                          </h2>
+                          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              <strong>At Quick Bite, we specialize in making the culinary world accessible to all.</strong> Whether you're a novice or an experienced chef, we have you covered. Our expertise includes crafting diverse and delightful recipes, simplifying cooking techniques, and exploring global cuisines. We're passionate about sharing our culinary adventures, from uncovering hidden food gems to emphasizing health-conscious dining. Quick Bite is your go-to resource for culinary inspiration, knowledge, and a world of unforgettable flavors.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                              Satisfying Cravings Near You
+                            </button>
+                          </h2>
+                          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              <strong>Quick Bite Food Website proudly extends its culinary footprint across the globe, with a network of restaurants in vibrant locations both in India and abroad</strong> In India, you can savor our delectable dishes in major cities like Mumbai, Delhi, Bangalore, and Kolkata, where we've captured the essence of diverse regional cuisines. And beyond our borders, we've ventured into international hubs, including New York, London, Dubai, and Sydney, to bring a taste of our global culinary adventures to a wider audience. Our commitment to delivering exceptional dining experiences knows no bounds, as we continue to expand our presence, ensuring that food lovers everywhere can enjoy a Quick Bite experience that transcends borders and boundaries.
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-6 col-12 m-auto text-end" data-aos="fade-right" data-aos-offset="200">
+                <img src="restaurant.jpeg" class="img-fluid img-thumbnail">
+            </div>
+        </div>
+    </div>
+</body>
+</section>
+
+<section class="services py-5 bg-light" id="services">
+    <div class="container">
+            <div class="text-center my-5">
+                <h1> Uncover <span class="text-success"> Quick Bite</span></h1>
+                <hr / class="w-25 m-auto">
+            </div>
+                
+            <div class="row" data-aos="zoom-in-up" data-aos-offset="200">
+            <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+                <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title">Values and Philosophy</h5>
+                      <p class="card-text"><strong>Quick Bite's Values:</strong> Uniting Flavor and Convenience.<br>
+                        <strong>Bite's Philosophy:</strong> Making Every Meal a Culinary Journey..</p>
+                      <a href="#" class="btn btn-success">Read More</a>
+                    </div>
+                  </div>
+            </div>
+
+            
+            <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+                    <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Testimonials and Awards</h5>
+                    <p class="card-text">
+                      <strong>Testimonials:</strong> "Quick Bite transformed my cooking skills! Their recipes are a delight to follow."<br>
+                      <strong>Awards:</strong> "Proud winners of the 2022 Culinary Excellence Award for Best Food Website."</p>
+                    <a href="#" class="btn btn-success">Read More</a>
+                </div>
+                 </div>
+            </div>
+
+            <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+                    <div class="card">
+                        <div class="card-body">
+                          <h5 class="card-title">Community and Engagement</h5>
+                          <p class="card-text">
+                            <strong>Community:</strong> "Join our passionate food community for daily culinary conversations."<br>
+                            <strong>Engagement:</strong> "Connect, share, and savor food moments together with Quick Bite."</p>
+                          <a href="#" class="btn btn-success">Read More</a>
+                        </div>
+                    </div>
+            </div>
+            
+        </div>
+        <div class="row mt-5" data-aos="fade-down" data-aos-offset="200">
+            <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+                <div class="card">
+                    <div class="card-body">
+                        <i class="icofont-book"></i>
+                      <h5 class="card-title">Updates and News</h5>
+                      <p class="card-text">
+                        <strong>Updates:</strong> "Stay in the know with our latest mouthwatering recipes and culinary insights."<br>
+                        <strong>News:</strong> "Discover the freshest food trends and exciting Quick Bite announcements."</p>
+                      <a href="#" class="btn btn-success">Read More</a>
+                    </div>
+                  </div>
+            </div>
+
+            
+            <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+                      <!--<a href="#" class="btn btn-success">Go somewhere</a>-->
+                    <div class="card bg-success text-white">
+                <div class="card-body">
+                    <h5 class="card-title">Photos and Visuals</h5>
+                    <p class="card-text">Click on the below button to check out our gallary.</p>
+                    <a href="#" class="btn btn-light">Click here</a>
+                </div>
+                 </div>
+            </div>
+
+            <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+                    <div class="card">
+                        <div class="card-body">
+                          <h5 class="card-title">Legal Information</h5>
+                          <p class="card-text">"Your trust, our priority. Explore our privacy policy and terms of service."</p>
+                          <a href="#" class="btn btn-success">Read More</a>
+                        </div>
+                    </div>
+            </div>
+            
+        </div>
+    </div>
+        
+    </div>
+</section>
+
+<section class="team my-5 text-center" id="team">
+
+    <div class=""container">
+        <div class="text-center my-5">
+            <h1>Our<span class="text-success">Team</span></h1>
+            <hr / class="w-25 m-auto">
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12 col-md-4 col-lg-3 col-12">
+                <div class="card" data-aos="zoom-in-down" data-aos-offset="200">
+                    <div class="card-body">
+                        <img src="nidhipic.jpeg" alt="nidhi gupta" class="img-fluid rounded-circle border border-primary p-2">
+                      <h5 class="card-title mt-4">Nidhi Gupta</h5>
+                      <p class="card-text">"I am a young woman currently pursuing a Master of Computer Applications (MCA) degree. 
+                        My passion for technology has led me to the exciting world of computer science and software development. 
+                        As an MCA student, I am dedicated to expanding my knowledge and skills in this field, 
+                        and I am eager to contribute to the dynamic and ever-evolving tech industry."</p>
+                      <a href="#" class="btn btn-success">Read About Nidhi</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-3 col-12">
+                <div class="card" data-aos="zoom-in-left" data-aos-offset="200">
+                    <div class="card-body">
+                      <img src="rsingh.jpeg" alt="Risabh Singh" class="img-fluid rounded-circle border border-primary p-2">
+                      <h5 class="card-title">Risabh Singh</h5>
+                      <p class="card-text">"I am a young man currently enrolled in a Master of Computer Applications (MCA) program. 
+                        I'm enthusiastic about the world of technology, and my MCA studies allow me to explore and master various aspects of computer science and IT. 
+                        With a strong determination to excel in this field,I look forward to leveraging my knowledge and skills for a promising career in the tech industry."</p>
+                      <a href="#" class="btn btn-success">Read about Risabh</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-3 col-12">
+                <div class="card" data-aos="zoom-in-right" data-aos-offset="200">
+                    <div class="card-body">
+                      <img src="gghosh.jpeg" alt="Gourabh Ghosh" class="img-fluid rounded-circle border border-primary p-2">
+                      <h5 class="card-title">Gourabh Ghosh</h5>
+                      <p class="card-text">"I am a young man currently enrolled in a Master of Computer Applications (MCA) program. 
+                        I'm enthusiastic about the world of technology, and my MCA studies allow me to explore and master various aspects of computer science and IT. 
+                        With a strong determination to excel in this field,I look forward to leveraging my knowledge and skills for a promising career in the tech industry."</p>
+                      <a href="#" class="btn btn-success">Read about Gourabh</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-3 col-12">
+                <div class="card">
+                    <div class="card-body" data-aos="zoom-in" data-aos-offset="200">
+                      <img src="vish.jpeg" alt="Vishwerwar Shinde" class="img-fluid rounded-circle border border-primary p-2">
+                      <h5 class="card-title">Vishweshwar Shinde</h5>
+                      <p class="card-text">"I am a young man currently enrolled in a Master of Computer Applications (MCA) program. 
+                        I'm enthusiastic about the world of technology, and my MCA studies allow me to explore and master various aspects of computer science and IT. 
+                        With a strong determination to excel in this field, I look forward to leveraging my knowledge and skills for a promising career in the tech industry."</p>
+                      <a href="#" class="btn btn-success">Read About Vishweshar</a>
+                    </div>
+                  </div>
+            </div>
+    </div>
+
+</section>
+
+<!--<section class="contact py-5" id="contact">
+    <div class="container">
+        <div class="text-center my-5">
+            <h1>Feel free<span class="text-success">to connect</span></h1>
+            <hr / class="w-25 m-auto">
+        </div>
+        <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-6 col-12" data-aos="fade-up-left" data-aos-offset="200">
+                <form class="row g-3">
+                    <div class="col-md-6">
+                      <label for="inputEmail4" class="form-label">Email</label>
+                      <input type="email" class="form-control" id="inputEmail4">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="inputPassword4" class="form-label">Password</label>
+                      <input type="password" class="form-control" id="inputPassword4">
+                    </div>
+                    <div class="col-12">
+                      <label for="inputAddress" class="form-label">Address</label>
+                      <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                    </div>
+                    
+                    <div class="col-md-6">
+                      <label for="inputCity" class="form-label">City</label>
+                      <input type="text" class="form-control" id="inputCity">
+                    </div>
+                    <div class="col-md-4">
+                      <label for="inputState" class="form-label">State</label>
+                      <select id="inputState" class="form-select">
+                        <option selected>Choose...</option>
+                        <option>...</option>
+                      </select>
+                    </div>
+                    <div class="col-md-2">
+                      <label for="inputZip" class="form-label">Zip</label>
+                      <input type="text" class="form-control" id="inputZip">
+                    </div>
+                    <div class="col-12">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                        <label class="form-check-label" for="gridCheck">
+                          Check me out
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <button type="submit" class="btn btn-primary">Sign in</button>
+                    </div>
+                  </form>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6 col-12 m-auto text-end p-4" data-aos="fade-up-right" data-aos-offset="200">
+                <img src="restaurant.jpeg" class="img-fluid img-thumbnail p-2">
+            </div>
+        </div>
+    </div>
+</section>-->
+
+<div class="row d-flex justify-content-center align-items-center rows">
+
+  <div class="col-md-6">
+      
+
+      <div class="card p-3 mb-2 bg-success text-dark">
+
+
+          <div class="text-center">
+
+              <img src="noti.jpg" width="200">
+              <span class="d-block mt-3">Subscribe to our newsletter in order not to miss new arrivals <br> promotions and discounts of our store</span>
+
+              <div class="mx-5">
+
+
+                 <div class="input-group mb-3 mt-4">
+                    <input type="text" class="form-control" placeholder="Enter email" aria-label="Recipient's username" aria-describedby="button-addon2">
+                    <button class="btn btn-light border-rad" type="button" id="button-addon2">Subscribe</button>
+                  </div>
+                  
+
+              </div>
+              
+          </div>
+          
+      </div>
+      
+  </div>
+
+<div class="container-fluid bg-primary text-white p-2 text-center fs-4">Developed by nidhi</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
+</body>
+</html>

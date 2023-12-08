@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gallery</title>
+
+    
+    <!-- Google Fonts "Lato" -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+ 
+    <!-- Bootstrap-css -->
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- local CSS files -->
+    <link rel="stylesheet" href="./gallery.css">
+    <link rel="stylesheet" href="../style.css">     <!-- for navbar and footer -->
+    <link rel="stylesheet" href="../media.css">     <!-- media Query for Nav and footer-->
+
+</head>
+  <body>
+    
+     <!-- header -->
+     <header>
+      <!-- navbar -->
+      <nav class="navbar1">
+        <!-- logo -->
+        <img src="../assets/logo-QB.png" class="logo" alt="">
+
+        <!-- links -->
+        <ul class="links-container">
+            <!-- <li class="link-items"><a href="./index.html" class="links">Home</a></li> -->
+            <li class="link-items"><a href="./Menu/Menu.html" class="links">menu</a></li>
+            <li class="link-items"><a href="./Why-us/why.html" class="links">About Us</a></li>
+            <li class="link-items"><a href="./Gallery/gallery.html" class="links">Gallery</a></li>
+           
+            <div class="dropdown">
+                <button class="dropbtn">More ▼</button>
+                <div class="dropdown-content">
+                    <a href="#">Membership</a>
+                    <a href="#">Contact Us</a>
+                    <a href="#">Blog</a>
+                </div>
+        </div>
+        </ul>
+
+        <div class="nav-extras">
+            <!-- search box -->
+            <div class="search">
+                <input type="text" class="search-box" placeholder="Search Restaurants, Cuisine.....">
+                <button class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+
+            <!-- cart icon -->
+            <a href="#" class="cart"><i class="fa-solid fa-cart-shopping"></i></a>
+
+            <div class="nav-toggler">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+      </header>
+
+
+     
+     <!-- craosel -->
+     <div id="carouselExampleDark" class="carousel carousel-dark slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner" style="height: 630px;" >
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img src="../assets/1.png" class="d-block w-100" alt="dfgdfgdfg" style=>
+          <div class="carousel-caption d-none d-md-block">
+            <h5>First slide label</h5>
+            <p>What's your fav fast food :0</p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="../assets/2.png" class="d-block w-100" alt="dfgdfgd" >
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Second slide label</h5>
+            <p>Let us know in the private, xD</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="../assets/3.png" class="d-block w-100" alt="gdfgdfxdfg" >
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third slide label</h5>
+            <p>Authored by Rishu n Vishu</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+   <div class="title-container text-center">
+    <div class="caption">Photo Gallery</div>
+   </div>
+   
+   <!-- Gallery -->
+   <div class="g-main" style="margin: 0 20px; ;"><div class="row mt-4">
+    <div class="col-lg-4 col-md-12 mb-4 mb-lg-0 ">
+      <img
+        src="../assets/g-1.jpg " style="height: 397px;"
+        class="w-100 shadow-1-strong rounded mb-4"
+        alt="Boat on Calm Water"
+      />
+  
+      <img
+        src="../assets/g-2.jpg "
+        class="w-100 shadow-1-strong rounded mb-03"
+        alt="Wintry Mountain Landscape"
+      />
+    </div>
+  
+    <div class="col-lg-4 mb-4 mb-lg-0">
+      <img
+        src="../assets/g-3.jpg "
+        class="w-100 shadow-1-strong rounded mb-4"
+        alt="Mountains in the Clouds"
+      />
+  
+      <img
+      src="../assets/g-4.jpg "
+        class="w-100 shadow-1-strong rounded mb-4 "
+        alt="Boat on Calm Water"
+      />
+    </div>
+  
+    <div class="col-lg-4 mb-4 mb-lg-0">
+      <img
+      src="../assets/g-5.jpg "
+        class=" w-100 shadow-1-strong rounded mb-4"
+        alt="Waves at Sea"
+      />
+  
+      <img
+      src="../assets/g-6.jpg "
+        class="w-100 shadow-1-strong rounded mb-4"
+        alt="Yosemite National Park"
+      />
+    </div>
+  </div>
+</div>
+
+<!-- Gallery --> 
+
+
+
+
+
+<!-- footer -->
+<footer id="footer">
+  <div class="company-info">
+      <img src="../img/logo-QB.png" class="footer-logo" alt="">
+
+      <div class="social-links">
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-discord"></i></a>
+          <a href="#"><i class="fa-brands fa-youtube"></i></i></a>
+      </div>
+
+      <div class="download-btn-group">
+          <a href="#" class="download-btn"><img src="img/play-store.png" alt=""></a>
+          <a href="#" class="download-btn"><img src="img/app-store.png" alt=""></a>
+      </div>
+  </div>
+
+  <div class="useful-links footer-links-container">
+      <h5 class="footer-links-title">useful links</h5>
+      <a href="#" class="footer-links">menu</a>
+      <a href="#" class="footer-links">restaurants</a>
+      <a href="#" class="footer-links">your orders</a>
+      <a href="#" class="footer-links">track order</a>
+      <a href="#" class="footer-links">support</a>
+  </div>
+
+  <div class="information footer-links-container">
+      <h5 class="footer-links-title">information</h5>
+      <a href="#" class="footer-links">about us</a>
+      <a href="#" class="footer-links">privacy policy</a>
+      <a href="#" class="footer-links">terms and conditions</a>
+      <a href="#" class="footer-links">what info we collect ?</a>
+  </div>
+
+  <div class="contact footer-links-container">
+      <h5 class="footer-links-title">contact us</h5>
+      <p class="footer-text">Our main restaurant is located on Manipal, Udupi</p>
+      <p class="footer-text">Phone - +00 1234567890</p>
+      <p class="footer-text">Email - hunger-support@quickbite.com</p>
+  </div>
+
+  <p class="copyright">Designed & 👨‍💻 by Rishab Singh</p>
+
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>

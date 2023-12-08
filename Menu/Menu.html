@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food website</title>
+
+    <!-- Google Fonts "Lato" -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+
+    <!-- local CSS files -->
+    <link rel="stylesheet" href="./Menu.css">
+    <link rel="stylesheet" href="../media.css">
+
+</head>
+
+<body>
+
+    <!-- header -->
+    <header>
+        
+        <!-- navbar -->
+        <nav class="navbar1">
+            <!-- logo -->
+            <img src="../assets/logo-QB.png" class="logo" alt="">
+
+            <!-- links -->
+            <ul class="links-container">
+                <!-- <li class="link-items"><a href="./index.html" class="links">Home</a></li> -->
+                <li class="link-items"><a href="./Menu/Menu.html" class="links">menu</a></li>
+                <li class="link-items"><a href="./Why-us/why.html" class="links">About Us</a></li>
+                <li class="link-items"><a href="./Gallery/gallery.html" class="links">Gallery</a></li>
+               <!-- <li class="link-items"><a href="./Gallery/gallery.html" class="links">Gallery</a></li> -->
+                <!-- <Select><option ><li class="link-items"><a href="./Membership/membership.html" class="links">Membership</a></li></option></Select> -->
+                <div class="dropdown">
+                    <button class="dropbtn">More ▼</button>
+                    <div class="dropdown-content">
+                        <a href="#">Membership</a>
+                        <a href="#">Contact Us</a>
+                        <a href="#">Blog</a>
+                    </div>
+            </div>
+            </ul>
+
+            <div class="nav-extras">
+                <!-- search box -->
+                <div class="search">
+                    <input type="text" class="search-box" placeholder="Search Restaurants, Cuisine.....">
+                    <button class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+
+                <!-- cart icon -->
+                <a href="#" class="cart"><i class="fa-solid fa-cart-shopping"></i></a>
+
+                <div class="nav-toggler">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+<div class="restaurants-container">
+    <div class="restaurant">
+        <p class="discount">50% Off</p>
+        <div class="restaurant-thumbnail">
+            <img src="../assets/hero-burger.png" class="restaurant-img" alt="">
+        </div>
+        <div class="restaurant-body">
+            <h3 class="restaurant-name">Burger</h3>
+            <p class="menu">Burgers, Fries, Nuggets</p>
+            <p class="place">new york</p>
+            <span class="rating">4.2 <i class="fa-solid fa-star"></i> </span>
+        </div>
+    </div>
+
+    <div class="restaurant">
+        <div class="restaurant-thumbnail">
+            <img src="../assets/hero-pizza.png" class="restaurant-img" alt="">
+        </div>
+        <div class="restaurant-body">
+            <h3 class="restaurant-name">restaurant 02</h3>
+            <p class="menu">Pasta, Pizza, Spaghetti</p>
+            <p class="place">italy</p>
+            <span class="rating">4.2 <i class="fa-solid fa-star"></i> </span>
+        </div>
+    </div>
+
+    <div class="restaurant">
+        <p class="discount">50% Off</p>
+        <div class="restaurant-thumbnail">
+            <img src="../assets/hero-bowl.png" class="restaurant-img" alt="">
+        </div>
+        <div class="restaurant-body">
+            <h3 class="restaurant-name">restaurant 03</h3>
+            <p class="menu">Burgers, Fries, Nuggets</p>
+            <p class="place">paris</p>
+            <span class="rating">4.2 <i class="fa-solid fa-star"></i> </span>
+        </div>
+    </div>
+
+    <div class="restaurant">
+        <div class="restaurant-thumbnail">
+            <img src="../assets/food-3.png" class="restaurant-img" alt="">
+        </div>
+        <div class="restaurant-body">
+            <h3 class="restaurant-name">restaurant 04</h3>
+            <p class="menu">Indian cuisine</p>
+            <p class="place">new york</p>
+            <span class="rating">4.2 <i class="fa-solid fa-star"></i> </span>
+        </div>
+    </div>
+
+    <div class="restaurant">
+        <div class="restaurant-thumbnail">
+            <img src="../assets/food-2.png" class="restaurant-img" alt="">
+        </div>
+        <div class="restaurant-body">
+            <h3 class="restaurant-name">restaurant 05</h3>
+            <p class="menu">Chinese Cuisine, Noddle</p>
+            <p class="place">new york</p>
+            <span class="rating">4.2 <i class="fa-solid fa-star"></i> </span>
+        </div>
+    </div>
+
+    <div class="restaurant">
+        <p class="discount">50% Off</p>
+        <div class="restaurant-thumbnail">
+            <img src="../assets/food-1.png" class="restaurant-img" alt="">
+        </div>
+        <div class="restaurant-body">
+            <h3 class="restaurant-name">restaurant 06</h3>
+            <p class="menu">Chicken Nuggets, chicken</p>
+            <p class="place">italy</p>
+            <span class="rating">4.2 <i class="fa-solid fa-star"></i> </span>
+        </div>
+    </div>
+</div>
+
+
+
+ <!-- footer -->
+ <footer id="footer">
+    <div class="company-info">
+        <img src="./assets/logo-QB.png" class="logo" alt="">
+
+        <div class="social-links">
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-discord"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></i></a>
+        </div>
+
+        <div class="download-btn-group">
+            <a href="#" class="download-btn"><img src="./assets/" alt=""></a>
+            <a href="#" class="download-btn"><img src="img/app-store.png" alt=""></a>
+        </div>
+    </div>
+
+    <div class="useful-links footer-links-container">
+        <h5 class="footer-links-title">useful links</h5>
+        <a href="#" class="footer-links">menu</a>
+        <a href="#" class="footer-links">restaurants</a>
+        <a href="#" class="footer-links">your orders</a>
+        <a href="#" class="footer-links">track order</a>
+        <a href="#" class="footer-links">support</a>
+    </div>
+
+    <div class="information footer-links-container">
+        <h5 class="footer-links-title">information</h5>
+        <a href="#" class="footer-links">about us</a>
+        <a href="#" class="footer-links">privacy policy</a>
+        <a href="#" class="footer-links">terms and conditions</a>
+        <a href="#" class="footer-links">what info we collect ?</a>
+    </div>
+
+    <div class="contact footer-links-container">
+        <h5 class="footer-links-title">contact us</h5>
+        <p class="footer-text">Located at your nearest street food center</p>
+        <p class="footer-text">Phone - +00 1234567890</p>
+        <p class="footer-text">Email - hunger-support@quickbite.com</p>
+    </div>
+
+   
+     <p class="copyright">Designed & 👨‍💻 by Rishab Singh</p>
+
+</footer>
+
+<!-- script -->
+<script src="app.js"></script>
+</body>
+</html>

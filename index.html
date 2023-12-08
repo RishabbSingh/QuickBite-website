@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick-Bite</title>
+
+    <!-- Google Fonts "Lato" -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+    <!-- Local CSS files -->
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./media.css">
+
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <!-- Navbar -->
+        <nav role="navigation" aria-label="Main Navigation" class="navbar1">
+            <!-- Logo -->
+            <img src="./assets/logo-QB.png" class="logo" alt="Quick-Bite Logo">
+
+            <!-- Links -->
+            <ul class="links-container" role="menu">
+                <li class="link-items" role="menuitem"><a href="./Menu/Menu.html" class="links">Menu</a></li>
+                <li class="link-items" role="menuitem"><a href="./Why-us/why.html" class="links">About Us</a></li>
+                <li class="link-items" role="menuitem"><a href="./Gallery/gallery.html" class="links">Gallery</a></li>
+                <li class="link-items dropdown" role="menuitem" aria-haspopup="true" aria-expanded="false">
+                    <button class="dropbtn">More ▼</button>
+                    <div class="dropdown-content">
+                        <a href="./Membership/membership.html">Membership</a>
+                        <a href="./contact us/contact.html">Contact Us</a>
+                        <a href="#">Blog</a>
+                    </div>
+                </li>
+            </ul>
+
+            <div class="nav-extras">
+                <!-- Search Box -->
+                <div class="search" role="search">
+                    <input type="text" class="search-box" placeholder="Search Restaurants, Cuisine.....">
+                    <button class="search-btn" aria-label="Search"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+
+                <!-- Cart Icon -->
+                <a href="#" class="cart" aria-label="Cart"><i class="fa-solid fa-cart-shopping"></i></a>
+
+                <!-- Nav Toggler -->
+                <div class="nav-toggler" role="button" aria-label="Toggle Navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Main Section -->
+        <main id="hero-section" role="main">
+            <!-- Hero Content -->
+            <div class="hero-content">
+                <h1 class="hero-heading">Eat the best</h1>
+                <p class="hero-line">Explore and understand the culture more by tasting the amazing dishes of that culture</p>
+
+                <div class="search location" role="search">
+                    <input type="text" class="search-box" placeholder="Search your location...">
+                    <button class="locate-btn" aria-label="Locate"><i class="fa-solid fa-location-crosshairs"></i></button>
+                </div>
+
+                <div class="hero-action-btn-container">
+                    <button class="btn">Order Food</button>
+                    <p class="or">or</p>
+                    <button class="btn transparent">Make Reservation</button>
+                </div>
+            </div>
+
+            <!-- Hero Section Right Side -->
+            <div class="hero-image-container" role="img" aria-label="Hero Images">
+                <img src="./assets/hero-biryani.png" class="hero-img" alt="Delicious Biryani">
+                <img src="./assets/hero-burger.png" class="hero-img" alt="Tasty Burger">
+                <img src="./assets/hero-pizza.png" class="hero-img" alt="Delicious Pizza">
+            </div>
+        </main>
+    </header>
+
+    <!-- Restaurants Section -->
+    <section id="restaurants-section" role="region" aria-label="Restaurants Section">
+        <div class="leaf-layer right" role="presentation"><img src="./assets/leafs.png" alt=""></div>
+
+        <div class="section">
+            <!-- Left Div -->
+            <div class="food-image-container">
+                <div class="circle" role="presentation" aria-hidden="true">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="circle" role="presentation" aria-hidden="true">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <div>
+                    <img src="./assets/food-1.png" class="food-img" alt="Delicious Food">
+                    <img src="./assets/food-2.png" class="food-img" alt="Tasty Food">
+                    <img src="./assets/food-3.png" class="food-img" alt="Exquisite Cuisine">
+                    <img src"./assets/food-4.png" class="food-img" alt="Mouthwatering Dish">
+                    <img src="./assets/food-5.png" class="food-img" alt="Savory Delight">
+                    <img src="./assets/food-6.png" class="food-img" alt="Flavorful Food">
+                    <img src="./assets/food-7.png" class="food-img" alt="Gourmet Cuisine">
+                </div>
+            </div>
+
+            <!-- Right Div -->
+            <div class="section-detail">
+                <span class="section-highlight">From 5 star restaurants</span>
+                <p class="section-title">1000+</p>
+                <p class="section-info">Order from our 1000+ restaurants with an endless variety of food and beverages. Food for every taste and mood.</p>
+                <button class="btn">Order Food</button>
+            </div>
+        </div>
+
+        <div class="leaf-layer left" role="presentation"><img src="./assets/leaf-left.png" alt=""></div>
+    </section>
+
+    <!-- Banner -->
+    <div class="discount-banner" role="banner" aria-label="Discount Banner">
+        <!-- Left Div -->
+        <div class="section-detail">
+            <h1 class="section-title">Get an extra 20% off on your first order</h1>
+            <p class="section-info">Use this code during checkout</p>
+            <p class="discount-code">WELCOME20</p>
+        </div>
+        <!-- Right Div -->
+        <div class="dish-slider" role="img" aria-label="Dish Slider">
+            <img src="./assets/discount-food-slider-1.png" alt="Discounted Food Item">
+            <img src="./assets/hero-pizza.png" alt="Delicious Pizza">
+            <img src="./assets/hero-burger.png" alt="Tasty Burger">
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer id="footer" role="contentinfo">
+        <div class="company-info">
+            <img src="./assets/logo-QB.png" class="logo" alt="Quick-Bite Logo">
+
+            <div class="social-links">
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-discord"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+
+            <div class="download-btn-group">
+                <a href="#" class="download-btn"><img src="./assets/" alt=""></a>
+                <a href="#" class="download-btn"><img src="img/app-store.png" alt=""></a>
+            </div>
+        </div>
+
+        <div class="useful-links footer-links-container">
+            <h5 class="footer-links-title">Useful Links</h5>
+            <a href="#" class="footer-links">Menu</a>
+            <a href="#" class="footer-links">Restaurants</a>
+            <a href="#" class="footer-links">Your Orders</a>
+            <a href="#" class="footer-links">Track Order</a>
+            <a href="#" class="footer-links">Support</a>
+        </div>
+
+        <div class="information footer-links-container">
+            <h5 class="footer-links-title">Information</h5>
+            <a href="#" class="footer-links">About Us</a>
+            <a href="#" class="footer-links">Privacy Policy</a>
+            <a href="#" class="footer-links">Terms and Conditions</a>
+            <a href="#" class="footer-links">What Info We Collect?</a>
+        </div>
+
+        <div class="contact footer-links-container">
+            <h5 class ="footer-links-title">Contact Us</h5>
+            <p class="footer-text">Located at your nearest street food center</p>
+            <p class="footer-text">Phone - +00 1234567890</p>
+            <p class="footer-text">Email - hunger-support@quickbite.com</p>
+        </div>
+
+        <p class="copyright">Designed & 👨‍💻 by Rishab Singh</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="app.js"></script>
+
+</body>
+</html>

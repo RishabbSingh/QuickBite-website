@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Contact Us</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Local-css -->
+  <link rel="stylesheet" href="./contact.css">
+  <link rel="stylesheet" href="../media.css">
+
+  <!-- Fontawesome icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <!-- Google Fonts "Lato" -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+  <style>/* Add this to your CSS file or in a <style> tag in the <head> */
+    .floating-icon {
+        position: fixed;
+        bottom: 20px; /* Adjust this value to control the vertical position */
+        right: 20px; /* Adjust this value to control the horizontal position */
+        z-index: 1000; /* Ensure the icon is above other content */
+        background-color: #1d8306; /* Background color for the icon */
+        color: #fff; /* Text color for the icon */
+        font-size: 24px; /* Adjust the icon size */
+        width: 50px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%; /* Make it a circle */
+        cursor: pointer;
+    }
+    </style>
+</head>
+<body>
+<header>
+   <nav class="navbar1">
+  <!-- logo -->
+  <img src="../assets/logo-QB.png" class="logo" alt="">
+
+  <!-- links -->
+  <ul class="links-container">
+      <!-- <li class="link-items"><a href="./index.html" class="links">Home</a></li> -->
+      <li class="link-items"><a href="./Menu/Menu.html" class="links">menu</a></li>
+      <li class="link-items"><a href="./Why-us/why.html" class="links">About Us</a></li>
+      <li class="link-items"><a href="./Gallery/gallery.html" class="links">Gallery</a></li>
+     <!-- <li class="link-items"><a href="./Gallery/gallery.html" class="links">Gallery</a></li> -->
+      <!-- <Select><option ><li class="link-items"><a href="./Membership/membership.html" class="links">Membership</a></li></option></Select> -->
+      <div class="dropdown">
+          <button class="dropbtn">More ▼</button>
+          <div class="dropdown-content">
+              <a href="./Membership/membership.html">Membership</a>
+              <a href="./contact us/contact.html">Contact Us</a>
+              <a href="#">Blog</a>
+          </div>
+  </div>
+  </ul>
+
+  <div class="nav-extras">
+      <!-- search box -->
+      <div class="search">
+          <input type="text" class="search-box" placeholder="Search Restaurants, Cuisine.....">
+          <button class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+      </div>
+
+      <!-- cart icon -->
+      <a href="#" class="cart"><i class="fa-solid fa-cart-shopping"></i></a>
+
+      <div class="nav-toggler">
+          <span></span>
+          <span></span>
+          <span></span>
+      </div>
+  </div>
+</nav>
+</header>
+ 
+
+  <section class="contact-section">
+    <div class="contact-bg">
+      <h3>Get in Touch with Us</h3>
+      <h2>Contact Us</h2>
+      <div class="line">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <p id="text1" class="text">At QuickBite Cafe, we value your feedback and enquiries. Whether you want to share your dining experience or ask us to make momos for you, enquire about our menu, or discuss an event, our team is here to assist you. Feel free to reach out to us using the following contact details.</p>
+    </div><br>
+<hr>
+    <div class="contact-body">
+      <div class="contact-info">
+        <div>
+          <span><i class="fas fa-phone-alt"></i></span>
+          <span>Phone No.</span>
+          <span class="text">1-2392-23928-2</span>
+        </div>
+        <div>
+          <span><i class="fas fa-envelope-open"></i></span>
+          <span>E-mail</span>
+          <span class="text">mail@company.com</span>
+        </div>
+        <div>
+          <span><i class="fas fa-map-marker-alt"></i></span>
+          <span>Address</span>
+          <span class="text">2939 Patrick Street, Vicotria TX, United States</span>
+        </div>
+        <div>
+          <span><i class="fas fa-clock"></i></span>
+          <span>Opening Hours</span>
+          <span class="text">Monday - Friday (9:00 AM to 5:00 PM)</span>
+        </div>
+      </div>
+
+      <div class="contact-form">
+        <form onsubmit="return validateForm()">
+          <div>
+            <label for="first-name">First Name:</label>
+            <input type="text" class="form-control" id="first-name" placeholder="First Name" required>
+            <label for="last-name">Last Name:</label>
+            <input type="text" class="form-control" id="last-name" placeholder="Last Name" required>
+          </div>
+          <div>
+            <label for="email">E-mail:</label>
+            <input type="email" class="form-control" id="email" placeholder="E-mail" required>
+            <label for="phone">Phone:</label>
+            <input type="text" class="form-control" id="phone" placeholder="Phone">
+          </div>
+          <label for="message">Message:</label>
+          <textarea rows="5" class="form-control" id="message" placeholder="Message" required></textarea>
+          <input type="submit" class="send-btn" value="Send Message">
+        </form>
+        <div>
+          <img src = "image/undraw_contact_us_re_4qqt.svg" alt = "">
+        </div>
+        <div id="confirmation" style="display: none;">Thank you for your message!</div>
+      </div>
+    </div>
+<hr>
+    <!-- <p style="width: 80% " class="text">Our team at QuickBite Cafe is dedicated to providing you    with the best dining experience and customer service. 
+    We look forward to hearing from you and serving you in our cozy cafe.
+    </p>
+    <hr> -->
+
+    <div class = "map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31056.351341756705!2d74.77056791162057!3d13.34754426820301!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbca35639f9cc91%3A0xc9e04ffb553340fc!2sManipal%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1697794260849!5m2!1sen!2sin" width="100%" height="350" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+      </div>
+  </section>
+
+
+<!-- footer -->
+<footer id="footer">
+  <div class="company-info">
+      <img src="../assets/logo-QB.png" class="logo" alt="">
+
+      <div class="social-links">
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-discord"></i></a>
+          <a href="#"><i class="fa-brands fa-youtube"></i></i></a>
+      </div>
+
+      <div class="download-btn-group">
+          <a href="#" class="download-btn"><img src="./assets/" alt=""></a>
+          <a href="#" class="download-btn"><img src="img/app-store.png" alt=""></a>
+      </div>
+  </div>
+
+  <div class="useful-links footer-links-container">
+      <h5 class="footer-links-title">useful links</h5>
+      <a href="#" class="footer-links">menu</a>
+      <a href="#" class="footer-links">restaurants</a>
+      <a href="#" class="footer-links">your orders</a>
+      <a href="#" class="footer-links">track order</a>
+      <a href="#" class="footer-links">support</a>
+  </div>
+
+  <div class="information footer-links-container">
+      <h5 class="footer-links-title">information</h5>
+      <a href="#" class="footer-links">about us</a>
+      <a href="#" class="footer-links">privacy policy</a>
+      <a href="#" class="footer-links">terms and conditions</a>
+      <a href="#" class="footer-links">what info we collect ?</a>
+  </div>
+
+  <div class="contact footer-links-container">
+      <h5 class="footer-links-title">contact us</h5>
+      <p class="footer-text">Located at your nearest street food center</p>
+      <p class="footer-text">Phone - +00 1234567890</p>
+      <p class="footer-text">Email - hunger-support@quickbite.com</p>
+  </div>
+
+ 
+   <p class="copyright">Designed & 👨‍💻 by Rishab Singh</p>
+
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script>
+
+// / Function to open the chatbot in a new window
+    function openChatbot() {
+      // Replace 'chatbotUrl' with the URL of your chatbot
+      var chatbotUrl = 'https://example.com/chatbot';
+
+      // Open the chatbot URL in a new window
+      window.open(chatbotUrl, 'ChatbotWindow', 'width=600,height=800');
+    }
+
+    function validateForm() {
+      var firstName = document.getElementById("first-name").value;
+      var lastName = document.getElementById("last-name").value;
+      var email = document.getElementById("email").value;
+      var message = document.getElementById("message").value;
+
+      if (firstName === "" || lastName === "" || email === "" || message === "") {
+        alert("Please fill out all required fields.");
+        return false;
+      }
+
+      // You can add more specific validation, like email format, here.
+
+      document.getElementById("confirmation").style.display = "block";
+      return false;
+
+    }
+  </script>
+
+<div class="floating-icon">
+  <a href="https://wa.me/+918459830891/?text=Hello%20QuickBite" class="fab fa-whatsapp"></a>
+
+</div>
+
+<script src="../app.js"></script>
+</body>
+</html>
