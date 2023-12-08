@@ -35,8 +35,8 @@ If you'd like to contribute to this project, please follow these steps:
 5. Open a pull request.
 
 **Contributions:**
-- Homepage: [@your-username](link-to-your-github) (Add a brief description of your contributions)
-- Gallery Page: [@your-username](link-to-your-github) (Add a brief description of your contributions)
+- Homepage: [@RishabbSingh](https://github.com/RishabbSingh) (Add a brief description of your contributions)
+- Gallery Page: [@RishabbSingh](https://github.com/RishabbSingh) (Add a brief description of your contributions)
 - Other Pages: Teammate's name [@teammate-username](link-to-teammate-github) (Add a brief description of their contributions)
 
 ## Purpose
