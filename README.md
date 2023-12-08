@@ -13,8 +13,8 @@ A simple frontend website built using HTML, CSS, and Bootstrap for individual re
 - **Easy Navigation:** Navigate seamlessly through the website with an intuitive menu structure, allowing users to find information quickly and efficiently.
 
 ## Installation
-1. Clone the repository: `git clone https://github.com/your-username/your-repo.git`
-2. Open the project folder: `cd your-repo`
+1. Clone the repository: `git clone https://github.com/RishabbSingh/QuickBite-website`
+2. Open the project folder: `cd QuickBite-website`
 3. Open the `index.html` file in your web browser.
 
 ## Usage
