@@ -46,7 +46,9 @@ If you'd like to contribute to this project, please follow these steps:
 
 ### Contributions by Teammates
 - **Teammate 1:** [@Vishweshwar](https://github.com/NeuronX28)  
-  - **Page 1:** Brief description: [Add a brief description of teammate 1's contributions to Page 1.]
+  - **contact us:** Brief description: "Revamped the 'Contact Us' page to offer an enhanced user experience, providing clear communication channels and streamlined contact options for improved accessibility."
+  - **membership:** Brief description: "Elevated the 'Membership' page, introducing a user-friendly interface that simplifies the membership process and showcases the benefits, fostering a more engaging and enticing member experience."
+  - **internal linking:** Brief description:"Implemented seamless page linking across the project, ensuring a cohesive navigation experience for users, allowing effortless transitions between the 'Contact Us' and 'Membership' pages for a unified and intuitive browsing journey."
 - **Teammate 2:** [@Gourab](https://github.com/gourabg2000)
   - **Menu Page:** Brief description: [Add a brief description of teammate 1's contributions to Page 1.]
   - **Profile Page:** Brief description: [Add a brief description of teammate 1's contributions to Page 1.]
