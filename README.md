@@ -45,9 +45,9 @@ If you'd like to contribute to this project, please follow these steps:
   Brief description: [Add a brief description of your contributions to the gallery page.]
 
 ### Contributions by Teammates
-- **Teammate 1:** [@teammate-username-1](link-to-teammate-1-github)  
+- **Teammate 1:** [@Vishweshwar](https://github.com/NeuronX28)  
   - **Page 1:** Brief description: [Add a brief description of teammate 1's contributions to Page 1.]
-
+- **Teammate 2:** [@Gourab](https://github.com/gourabg2000) 
 ## Purpose
 This website is designed for individual restaurants seeking to establish an online presence and facilitate the online sale of their food items.
 
