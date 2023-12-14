@@ -387,3 +387,23 @@ select{
     background-color: var();
 }
 
+/* Style the "Order Now" and "Add to Cart" buttons */
+.order-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.order-buttons button {
+    background: #007676;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: background 0.3s;
+    border-radius: 5px;
+}
+
+.order-buttons button:hover {
+    background: rgba(0, 118, 118, 0.4);
+}
