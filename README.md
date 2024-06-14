@@ -54,9 +54,9 @@ If you'd like to contribute to this project, please follow these steps:
   - **Profile Page:** Brief description: [Add a brief description of teammate 1's contributions to Page 1.]
   - **Payment Page:** Brief description: [Add a brief description of teammate 1's contributions to Page 1.]
  - **Teammate 3:** [@Nidhi](https://github.com/nidhigupta2)
-   - **SignUp/Login Page:** Brief description:Designed a signup/login page for users to either create a new account or access existing ones.
-   - **About Page:** Brief description: Designed a About page to brief on the purpose, mission, and key information about the organization.
-   - **Recipe Blog Page:** Brief description: Designed a Recipe Blog page to showcase a diverse collection of culinary creations, help users learn easy receipes using videos provided on the page.
+    - **SignUp/Login Page:** Brief description:Designed a signup/login page for users to either create a new account or access existing ones.
+    - **About Page:** Brief description: Designed a About page to brief on the purpose, mission, and key information about the organization.
+    - **Recipe Blog Page:** Brief description: Designed a Recipe Blog page to showcase a diverse collection of culinary creations, help users learn easy receipes using videos provided on the page.
 ## Purpose
 This website is designed for individual restaurants seeking to establish an online presence and facilitate the online sale of their food items.
 
