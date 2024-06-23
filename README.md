@@ -50,9 +50,15 @@ If you'd like to contribute to this project, please follow these steps:
   - **membership:** Brief description: "Elevated the 'Membership' page, introducing a user-friendly interface that simplifies the membership process and showcases the benefits, fostering a more engaging and enticing member experience."
   - **internal linking:** Brief description:"Implemented seamless page linking across the project, ensuring a cohesive navigation experience for users, allowing effortless transitions between the 'Contact Us' and 'Membership' pages for a unified and intuitive browsing journey."
 - **Teammate 2:** [@Gourab](https://github.com/gourabg2000)
-  - **Menu Page:** Brief description: [Add a brief description of teammate 1's contributions to Page 1.]
-  - **Profile Page:** Brief description: [Add a brief description of teammate 1's contributions to Page 1.]
-  - **Payment Page:** Brief description: [Add a brief description of teammate 1's contributions to Page 1.]
+  - **Menu Page:** Brief description: Created a simple interface for browsing food items.
+                                      Added categories and basic search functionality.
+                                      Displayed item details with images, descriptions, and prices.
+  - **Profile Page:** Brief description: Set up a basic checkout process for placing orders.
+                                         Included multiple payment options (credit card).
+                                         Worked on secure handling of payment information.
+  - **Payment Page:** Brief description: Built a page for users to view and edit their personal information.
+                                         Allowed basic customization of account details.
+                                         Implemented basic security measures to protect user data.
  - **Teammate 3:** [@Nidhi](https://github.com/nidhigupta2)
     - **SignUp/Login Page:** Brief description:Designed a signup/login page for users to either create a new account or access existing ones.
     - **About Page:** Brief description: Designed a About page to brief on the purpose, mission, and key information about the organization.
